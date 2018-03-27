@@ -1,18 +1,18 @@
 body {
 	text-align: center;
 	background-image: url("images/background1.png");
-	color: #D40B36;
+	color: #FFDB19;
 	font-family: Times New Roman;
 	font-size: 20px;
 	cursor: url(images/normal.cur), auto;
 }
 h1 {
 	font-size: 30px;
-	color: #D40B36;
+	color: #FFDB19;
 	font-weight: bold;
 }
 a {
-	color: #D40B36;
+	color: #FFDB19;
 	font-size: 30px;
 }
 p {
@@ -31,20 +31,20 @@ ul {
 	grid-template-areas: " grid grid grid ";
 	border: 6px solid black;
 }
-.box a {
+.boxa {
 	grid-row-start: 1;
 	grid-row-end: 2;
 	grid-column-start: 1;
 	grid-column-end: 2;
 	
 }
-.box b {
+.boxb {
 	grid-row-start: 1;
 	grid-row-end: 2;
 	grid-column-start: 2;
 	grid-column-end: 3;
 }	
-.box c {
+.boxc {
 	grid-row-start: 1;
 	grid-row-end: 2;
 	grid-column-start: 3;
